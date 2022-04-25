@@ -135,8 +135,6 @@ HUGO provides lots of prebuild themes.
 
 [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) is very much a work-in-progress. Please check if there's anything wrong about your post after exported. File an issue if you think something is a bug.
 
-###
-
 ## Issues
 
 [Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
