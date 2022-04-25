@@ -2,7 +2,11 @@
 
 ## Description
 
-This is a [HUGO](https://gohugo.io/) website template for [Logseq](https://logseq.com/#/) users who wants their published posts to look more like a personal website, using [GitHub Pages](https://pages.github.com/) to host the website and [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export your Logseq pages.
+This is a [HUGO](https://gohugo.io/) website template for [Logseq](https://logseq.com/#/) users who want their published posts to look more like a personal website, using [GitHub Pages](https://pages.github.com/) to host the website and [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export your Logseq pages.
+
+<p align="center">
+        <img src="./src/thanos_logseq_hugo.svg" style="width:50%"/>
+</p>
 
 ## Credits
 
@@ -24,7 +28,7 @@ You can host your website directly from your GitHub repo and it cost you nothing
 
 ---
 
-## Template Structure
+## 🧱 Template Structure
 
 ```bash
 ├── archetypes/    # A piece of content that's common to all of the content on your website.
@@ -62,7 +66,7 @@ You can host your website directly from your GitHub repo and it cost you nothing
 └── .gitignore    # This is to prevent unwanted files be tracked by Git.
 ```
 
-## Workflow
+## 🪜 Workflow
 
 This workflow assumes your know something about GitHub.
 
@@ -76,7 +80,7 @@ This workflow assumes your know something about GitHub.
 8. Wait few minutes for GitHub to deploy.
 9. You should now see your website in `https://{username}.github.io/`, eg. `https://githubuser.github.io/`! 🍻
 
-## Things you MUST modify
+## ✨ Things you MUST modify
 
 ### In `config.yml`
 
@@ -116,14 +120,22 @@ params:
 2. Click on the three dots on the top right corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
 3. Unzip the file and move the contents into `content/`.
 
-※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version to avoid that.
+※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version one instead.
 
 ## How to change theme?
 
-HUGO provides lots of prebuild themes. It very easy to apply one.
+HUGO provides lots of prebuild themes.
 
 1. [Install HUGO and Go](https://gohugo.io/getting-started/installing/).
 2. [Follow the steps](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme).
+
+※ Noted: Structure and configurations might varied from theme to theme.
+
+## ⚠️ Limitations
+
+[logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) is very much a work-in-progress. Please check if there's anything wrong about your post after exported. File an issue if you think something is a bug.
+
+###
 
 ## Issues
 
