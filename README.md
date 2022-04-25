@@ -141,6 +141,11 @@ HUGO provides lots of prebuild themes.
 
 [Issues for this template](https://github.com/CharlesChiuGit/Logseq-Hugo-Template/issues)
 
+## Sample Sites
+
+- https://aryansawhney.com
+- https://charleschiugit.github.io/
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
