@@ -73,7 +73,7 @@ This workflow assumes your know something about GitHub.
 5. Export your Logseq pages to `content/pages`, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
 6. Push it to `git@github.com:{username}/{username}.github.io.git`.
 7. After it's pushed, go to "Settings" > "Pages" > "Source" > Choose "gh-pages" branch. (auto-created by [GitHub actions](https://github.com/features/actions))
-8. Wait few minutes for GitHub to start hosting.
+8. Wait few minutes for GitHub to deploy.
 9. You should now see your website in `https://{username}.github.io/`, eg. `https://githubuser.github.io/`! 🍻
 
 ## Things you MUST modify
@@ -112,9 +112,9 @@ params:
 
 ### In `content/pages` and `content/assets`
 
-Export your Logseq pages and Logseq assets to here, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
-
-※ Noted: Current version of logseq-schrodinger only supports exporting one page at a time.
+1. Make pages public.
+2. Click on the 3 dots in the righthand corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
+3. Unzip the file and move the contents into `content/`.
 
 ※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version to avoid that.
 
