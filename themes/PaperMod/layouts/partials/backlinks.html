@@ -1,0 +1,39 @@
+{{ $re := $.File.BaseFileName }}
+{{ $backlinks := slice }}
+{{ range where .Site.RegularPages "Type" "pages" }}
+   {{ if and (findRE $re .RawContent) (not (eq $re .File.BaseFileName)) }}
+      {{ $backlinks = $backlinks | append . }}
+   {{ end }}
+{{ end }}
+
+
+{{ if gt (len $backlinks) 0 }}
+<hr>
+  <aside>
+    <h3>Linked References</h3>
+    <div class="backlinks">
+      <ul>
+       {{ range $backlinks }}
+          <p class="capitalize"><a style="color: var(--link);" href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+       {{ end }}
+     </ul>
+    </div>
+  </aside>
+{{ else  }}
+<hr>
+  <aside>
+    <h4>No linked references</h4>
+  </aside>
+{{ end }}
+<br>
+<aside class="related">
+  {{ $related := .Site.RegularPages.Related . | complement $backlinks | first 3 -}}
+  {{ with $related -}}
+  <h3>Similar Content</h3>
+  <ul>
+  {{ range . -}}
+  <p class="capitalize"><a style="color: var(--link);" href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+  {{ end -}}
+  </ul>
+  {{ end -}}
+</aside>

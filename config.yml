@@ -1,0 +1,56 @@
+baseURL: https://githubuser.github.io
+languageCode: en-us
+title: Linus Torvalds
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: Sup bruh 😎
+    Content: This is something shows in your homepage.
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/XXX"
+    # - name: "youtube"
+    #   url: "https://www.youtube.com/channel/XXX"
+    - name: "twitter"
+      url: "https://twitter.com/XXX"
+    # - name: "kofi"
+    #   url: "https://buymeacoffee.com/XXX"
+    # - name: "rss"
+    #   url: "https://XXX.github.io/index.xml"
+  ShowReadingTime: true
+  author: "Linus Torvalds"
+  contact: "LinusT@example.com"
+  feedlinks: true
+  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  mobileMenu: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+  section:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
