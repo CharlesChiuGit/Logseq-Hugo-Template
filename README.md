@@ -2,7 +2,7 @@
 
 ## Description
 
-This is [HUGO](https://gohugo.io/) website template for [Logseq](https://logseq.com/#/) users who wants their published posts to look more like a personal website, using [GitHub Pages](https://pages.github.com/) to host the website and [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export your Logseq pages.
+This is a [HUGO](https://gohugo.io/) website template for [Logseq](https://logseq.com/#/) users who wants their published posts to look more like a personal website, using [GitHub Pages](https://pages.github.com/) to host the website and [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export your Logseq pages.
 
 ## Credits
 
@@ -69,11 +69,12 @@ This workflow assumes your know something about GitHub.
 1. Click the green `Use this template` button to fork this template repo.
 2. Rename the forked repo to `{your-GitHub-username}.github.io`, eg, GitHubUser.github.io.
 3. Clone the the repo.
-4. Export your Logseq pages to `content/pages`, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
-5. Push it to `git@github.com:{username}/{username}.github.io.git`.
-6. After pushed, go to "Settings" > "Pages" > "Source" > Choose "gh-pages"(auto-created by [GitHub actions](https://github.com/features/actions)).
-7. Wait few minutes for GitHub to start hosting.
-8. You should now see your website in `https://{username}.github.io/`, eg. `https://githubuser.github.io/`! 🍻
+4. Configurate `config.yml`.
+5. Export your Logseq pages to `content/pages`, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
+6. Push it to `git@github.com:{username}/{username}.github.io.git`.
+7. After it's pushed, go to "Settings" > "Pages" > "Source" > Choose "gh-pages" branch. (auto-created by [GitHub actions](https://github.com/features/actions))
+8. Wait few minutes for GitHub to start hosting.
+9. You should now see your website in `https://{username}.github.io/`, eg. `https://githubuser.github.io/`! 🍻
 
 ## Things you MUST modify
 
@@ -102,8 +103,8 @@ params:
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
   ShowReadingTime: true
-  author: "Linus Torvalds"
-  contact: "LinusT@example.com"
+  author: "Linus Torvalds" # Your name.
+  contact: "LinusT@example.com" # Your email.
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
@@ -119,14 +120,14 @@ Export your Logseq pages and Logseq assets to here, using [logseq-schrodinger](h
 
 ## How to change theme?
 
-HUGO provides lots of prebuild theme. It very easy to apply one.
+HUGO provides lots of prebuild themes. It very easy to apply one.
 
 1. [Install HUGO and Go](https://gohugo.io/getting-started/installing/).
 2. [Follow the steps](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme).
 
 ## Issues
 
-[logseq-schrodinger's issues](https://github.com/sawhney17/logseq-schrodinger#issues)
+[Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
 
 [Issues for this template](https://github.com/CharlesChiuGit/Logseq-Hugo-Template/issues)
 
