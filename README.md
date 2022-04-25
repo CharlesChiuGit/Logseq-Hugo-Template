@@ -113,7 +113,7 @@ params:
 ### In `content/pages` and `content/assets`
 
 1. Make pages public.
-2. Click on the 3 dots in the righthand corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
+2. Click on the three dots on the top right corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
 3. Unzip the file and move the contents into `content/`.
 
 ※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version to avoid that.
