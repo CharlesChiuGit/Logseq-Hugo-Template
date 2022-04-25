@@ -135,6 +135,14 @@ HUGO provides lots of prebuild themes.
 
 [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) is very much a work-in-progress. Please check if there's anything wrong about your post after exported. File an issue if you think something is a bug.
 
+### [What works on logseq-schrodinger so far](https://github.com/sawhney17/logseq-schrodinger#what-works)
+
+- Local Hugo links (but Logseq uses one folder for everything, so Hugo does too)
+- Block refs(!) — On conversion the block is pulled from the other location
+- Images
+  - Notice that the uppercase filenames might be transformed to lowercase, making the remote images invalid, please double check that.
+- Basic Markdown styling (including highlighting!)
+
 ## Issues
 
 [Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
