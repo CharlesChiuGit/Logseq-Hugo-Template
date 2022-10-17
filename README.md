@@ -57,7 +57,7 @@ You can use [Markdown](https://www.markdownguide.org/) to write your posts/conte
 
 ### Why GitHub Pages?
 
-You can host your website directly from your GitHub repo and it cost you nothing.
+You can host your website directly from your GitHub repo, and it cost you nothing.
 
 ---
 
@@ -104,14 +104,14 @@ You can host your website directly from your GitHub repo and it cost you nothing
 This workflow assumes your know something about GitHub.
 
 1. Click the green `Use this template` button to fork this template repo.
-2. Rename the forked repo to `{your-GitHub-username}.github.io`, eg, GitHubUser.github.io.
-3. Clone the the repo.
+2. Rename the forked repo to `{your-GitHub-username}.github.io`, e.g. GitHubUser.github.io.
+3. Clone the repo.
 4. Configurate `config.yml`.
 5. Export your Logseq pages to `content/pages`, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
 6. Push it to `git@github.com:{username}/{username}.github.io.git`.
 7. After it's pushed, go to "Settings" > "Pages" > "Source" > Choose "gh-pages" branch. (auto-created by [GitHub actions](https://github.com/features/actions))
 8. Wait few minutes for GitHub to deploy.
-9. You should now see your website in `https://{username}.github.io/`, eg. `https://githubuser.github.io/`! 🍻
+9. You should now see your website in `https://{username}.github.io/`, e.g. `https://githubuser.github.io/`! 🍻
 
 ## ✨ Things you MUST modify
 
@@ -150,7 +150,7 @@ params:
 ### In `content/pages` and `content/assets`
 
 1. Make pages public.
-2. Click on the three dots on the top right corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
+2. Click on the three dots in the top right corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
 3. Unzip the file and move the contents into `content/`.
 
 ※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version one instead.
@@ -162,7 +162,7 @@ HUGO provides lots of prebuild themes.
 1. [Install HUGO and Go](https://gohugo.io/getting-started/installing/).
 2. [Follow the steps](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme).
 
-※ Noted: Structure and configurations might varied from theme to theme.
+※ Noted: Structure and configurations might vary from theme to theme.
 
 ## ⚠️ Limitations
 
