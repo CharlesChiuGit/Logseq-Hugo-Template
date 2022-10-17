@@ -1,4 +1,37 @@
-# Logseq-Hugo-Template
+<h1 align="center">
+    Logseq-Hugo-Template
+</h1>
+
+<p align="center">
+    <a href="https://github.com/CharlesChiuGit/Logseq-Hugo-Template/stargazers">
+    <img
+        alt="GitHub Repo stars"
+        src="https://img.shields.io/github/stars/CharlesChiuGit/Logseq-Hugo-Template?color=957FB8&logo=starship&style=for-the-badge">
+    </a>
+    <a href="https://github.com/CharlesChiuGit/Logseq-Hugo-Template/issues">
+    <img
+        alt="GitHub issues"
+        src="https://img.shields.io/github/issues-raw/CharlesChiuGit/Logseq-Hugo-Template?color=DCA561&logo=gitbook&logoColor=d9e0ee&style=for-the-badge">
+    <a href="https://github.com/CharlesChiuGit/Logseq-Hugo-Template/contributors">
+    <img
+        alt="GitHub contributors"
+        src="https://img.shields.io/github/contributors/CharlesChiuGit/Logseq-Hugo-Template?color=%2398BB6C&logo=opensourceinitiative&logoColor=d9e0ee&style=for-the-badge">
+    </a>
+    <img
+        alt="GitHub code size in bytes"
+        src="https://img.shields.io/github/languages/code-size/CharlesChiuGit/Logseq-Hugo-Template?color=%237E9CD8&logo=gitlfs&logoColor=d9e0ee&style=for-the-badge">
+</p>
+
+<p align="center">
+    <img
+        alt="HTML"
+        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+    <a href="https://logseq.com/#/">
+    <img
+        alt="Logseq"
+        src="https://img.shields.io/static/v1?label=&message=LOGSEQ&color=002B35&style=for-the-badge">
+    </a>
+</a>
 
 ## Description
 
@@ -88,7 +121,7 @@ This workflow assumes your know something about GitHub.
 baseURL: https://githubuser.github.io # 1. All lowercase. 2. Don't put `/` after `.io`.
 languageCode: en-us
 title: Linus Torvalds # Your name or the website title.
-theme: "PaperMod"
+theme: 'PaperMod'
 
 params:
   homeInfoParams:
@@ -96,21 +129,21 @@ params:
     Content: This is something shows in your homepage. # homepage content.
 
   socialIcons: # optional
-    - name: "github"
-      url: "https://github.com/XXX"
+    - name: 'github'
+      url: 'https://github.com/XXX'
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/XXX"
-    - name: "twitter"
-      url: "https://twitter.com/XXX"
+    - name: 'twitter'
+      url: 'https://twitter.com/XXX'
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
   ShowReadingTime: true
-  author: "Linus Torvalds" # Your name.
-  contact: "LinusT@example.com" # Your email.
+  author: 'Linus Torvalds' # Your name.
+  contact: 'LinusT@example.com' # Your email.
   feedlinks: true
-  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  copyright: '<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->'
   mobileMenu: true
 ```
 
@@ -151,8 +184,8 @@ HUGO provides lots of prebuild themes.
 
 ## Sample Sites
 
-- https://aryansawhney.com
-- https://charleschiugit.github.io/
+- <https://aryansawhney.com>
+- <https://charleschiugit.github.io/>
 
 ## License
 
