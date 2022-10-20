@@ -106,7 +106,7 @@ This workflow assumes your know something about GitHub.
 1. Click the green `Use this template` button to fork this template repo.
 2. Rename the forked repo to `{your-GitHub-username}.github.io`, e.g. GitHubUser.github.io.
 3. Clone the repo.
-4. Configurate `config.yml`.
+4. Configure `config.yml`.
 5. Export your Logseq pages to `content/pages`, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
 6. Push it to `git@github.com:{username}/{username}.github.io.git`.
 7. After it's pushed, go to "Settings" > "Pages" > "Source" > Choose "gh-pages" branch. (auto-created by [GitHub actions](https://github.com/features/actions))
@@ -173,7 +173,7 @@ HUGO provides lots of prebuild themes.
 - Local Hugo links (but Logseq uses one folder for everything, so Hugo does too)
 - Block refs(!) — On conversion the block is pulled from the other location
 - Images
-  - Notice that the uppercase filenames might be transformed to lowercase, making the remote images invalid, please double check that.
+  - Notice that the uppercase filenames might be transformed to lowercase, making the remote images invalid, please double-check that.
 - Basic Markdown styling (including highlighting!)
 
 ## Issues

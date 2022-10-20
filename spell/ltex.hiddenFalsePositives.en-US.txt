@@ -1,0 +1,3 @@
+{"rule":"GITHUB","sentence":"^\\QRename the forked repo to \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, e.g. GitHubUser.github.io.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QRename the forked repo to \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, e.g. GitHubUser.github.io.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qlogseq-schrodinger is very much a work-in-progress.\\E$"}
