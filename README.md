@@ -145,6 +145,14 @@ params:
   feedlinks: true
   copyright: '<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->'
   mobileMenu: true
+
+  #Google Analytics 4 optional
+  env: #production
+  GoogleAnalytics: "G-00000XXXXX" 
+  sitemap:
+    changefreq: daily
+    filename: sitemap.xml
+    priority: 0.5
 ```
 
 ### In `content/pages` and `content/assets`
@@ -154,6 +162,12 @@ params:
 3. Unzip the file and move the contents into `content/`.
 
 ※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version one instead.
+
+## How to set the Google Analytics 4?
+
+1. Apply [Google Analytics 4](https://analytics.google.com/)
+2. Write the GA4-ID to config.yml
+3. Set[Google Search Console](https://search.google.com/search-console/welcome)and add sitemap
 
 ## How to change theme?
 

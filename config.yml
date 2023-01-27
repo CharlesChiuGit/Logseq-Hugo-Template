@@ -28,7 +28,7 @@ params:
 
  #Google Analytics 4 optional
   env: #production
-  GoogleAnalyticsID: "G-00000XXXXX" 
+  GoogleAnalytics: "G-00000XXXXX" 
   sitemap:
     changefreq: daily
     filename: sitemap.xml
