@@ -26,6 +26,14 @@ params:
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
 
+ #Google Analytics 4 optional
+  env: #production
+  GoogleAnalyticsID: "G-00000XXXXX" 
+  sitemap:
+    changefreq: daily
+    filename: sitemap.xml
+    priority: 0.5
+
 outputs:
   home:
     - HTML
