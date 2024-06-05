@@ -199,7 +199,7 @@ HUGO provides lots of prebuild themes.
 ## Sample Sites
 
 - <https://aryansawhney.com>
-- <https://charleschiugit.github.io/>
+- <https://blog.charliie.dev/>
 
 ## License
 
